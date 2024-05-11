@@ -1,3 +1,32 @@
 <resources>
-    <string name="app_name">Assessment2Mobpro1</string>
+    <string name="app_name">Riwayat Pemakaian</string>
+    <string name="kembali">Kembali</string>
+    <string name="tambah_pengunjung">Tambah pengunjung</string>
+    <string name="edit_pengunjung">Edit pengunjung</string>
+    <string name="invalid">Data tidak boleh kosong</string>
+    <string name="simpan">Simpan</string>
+    <string name="list_kosong">List kosong</string>
+    <string name="riwayat">Riwayat</string>
+    <string name="pesan_hapus">Hapus data?</string>
+    <string name="tombol_hapus">Hapus</string>
+    <string name="tombol_batal">Batal</string>
+
+    <string name="nama">Nama :</string>
+    <string name="ruangan">Ruangan</string>
+    <string name="durasi">Durasi pemakaian :</string>
+    <string name="pemakaian">Durasi : %1$s Jam</string>
+    <string name="status">Status</string>
+
+    <string name="lainnya">Lainnya</string>
+    <string name="hapus">Hapus</string>
+
+    <string name="statusRuangan">Status ruangan :</string>
+    <string name="digunakan">Digunakan</string>
+    <string name="selesai">Selesai</string>
+
+    <string name="ruangan1">Ruangan 1</string>
+    <string name="ruangan2">Ruangan 2</string>
+    <string name="ruangan3">Ruangan 3</string>
+    <string name="ruangan4">Ruangan 4</string>
+    <string name="ruangan_dipakai">Ruangan dipakai</string>
 </resources>

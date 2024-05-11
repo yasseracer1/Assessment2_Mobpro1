@@ -10,6 +10,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import org.d3if3130.assessment2mobpro1.navigation.SetupNavGraph
 import org.d3if3130.assessment2mobpro1.ui.theme.Assessment2Mobpro1Theme
 
 class MainActivity : ComponentActivity() {
@@ -21,26 +22,10 @@ class MainActivity : ComponentActivity() {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
-                ) {
-                    Greeting("Android")
+                )   {
+                    SetupNavGraph()
                 }
             }
         }
-    }
-}
-
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    Assessment2Mobpro1Theme {
-        Greeting("Android")
     }
 }
