@@ -66,7 +66,7 @@ fun MainScreen(navController: NavHostController) {
         topBar = {
             TopAppBar(
                 title = {
-                    if (showList) Text(text = stringResource(id = R.string.app_name))
+                    if (showList) Text(text = stringResource(id = R.string.riwayat_pemakaian))
                     else Text(text = stringResource(id = R.string.ruangan_dipakai))
                 },
                 colors = TopAppBarDefaults.mediumTopAppBarColors(

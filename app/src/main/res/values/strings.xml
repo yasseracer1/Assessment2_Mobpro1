@@ -1,5 +1,6 @@
 <resources>
-    <string name="app_name">Riwayat Pemakaian</string>
+    <string name="app_name">Data Karaoke</string>
+    <string name="riwayat_pemakaian">Riwayat Pemakaian</string>
     <string name="kembali">Kembali</string>
     <string name="tambah_pengunjung">Tambah pengunjung</string>
     <string name="edit_pengunjung">Edit pengunjung</string>
